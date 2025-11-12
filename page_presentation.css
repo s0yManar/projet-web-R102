@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.coteAcote{
+    display: flex;
+}
+
+thead th{
+    padding:10px
+}
+
+td, th {
+    text-align: center;
+    border:1px solid grey;
+}
+
+table{
+    border-collapse: collapse;
+    
+}
