@@ -1,0 +1,25 @@
+h1.TitreCompetence1{
+    color: #b85d4f;
+}
+
+h1.TitrePrincipal{
+    background-color: #b85d4f;
+}
+
+table{
+    table-layout: auto;
+    width: 100%;
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: #663b35;
+    border-width: 2%;
+}
+
+tr, th{
+    padding : 5%;
+    border-collapse: collapse;
+    border-style : dotted;
+    border-color : #663b35;
+    border-width: 1%;
+}
+
