@@ -56,8 +56,10 @@ table{
 
 img {
     border-radius: 10px;
-    max-width: 250px;
+    height: 250px;
+    width: auto;
 }
+
 
 .C1, 
 .C2, 
@@ -69,8 +71,11 @@ img {
     gap:1rem;
     padding:0 3rem;
     margin: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
     background-color: #e0e0e0;
     border-radius: 10px;
+    align-items: center;
 }
 
 .ressources{
@@ -106,10 +111,16 @@ img {
     flex-direction: column;
 }
 
+td.empty {
+    border:0px !important;
+    background-color: #e0e0e0 !important;
+    color:inherit !important;
+}
+
 
 @media (hover: hover) {
     img:hover{
-        transform: scale(1.03);
+        transform: scale(1.01);
     }
 }
 
@@ -138,7 +149,7 @@ img {
         font-size: 0.8rem;
     }
 
-    .img {
+    .img img{
         flex: 0 0 auto;
         max-width: 90%;
         height: auto;
