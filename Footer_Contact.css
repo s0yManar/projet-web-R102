@@ -1,0 +1,154 @@
+body {
+    background-color: #F5F5F5;
+}
+
+/*Page de Contact*/
+.contacte{
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+.contacte h1{
+  text-align:center;
+  color: #ff3a39;
+  margin-bottom: 30px
+}
+.contactez-nous{
+  background-color: #d7d0a1;
+  padding: 10px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.contacte strong {
+  font-weight: bold; 
+  font-size: 18px;
+}
+.formulaire form{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding: 25px;
+  border-radius: 10px;
+}
+.colonne-gauche {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 40%;
+}
+.champ{
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-weight: bold;
+}
+input, textarea {
+  padding:10px;
+  border: 1px solid #202020;
+  border-radius: 5px;
+}
+textarea{
+  min-height: 120px;
+}
+button{
+  background-color: #ff3a39;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.colonne-droite {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.colonne-droite textarea {
+  height: 100%;
+  min-height: 200px;
+}
+
+
+.info{
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+  align-items: flex-start;
+}
+.photo-IUT img{
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+.adresse {
+  flex: 1;
+}
+.carte {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+.droite-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #202020;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+  
+  /*Page de Contact*/
+
+   .form-contact {
+    flex-direction: column;
+  }
+  .colonne-gauche,
+  .colonne-droite {
+    width: 100%;
+  }
+  .colonne-droite textarea {
+    min-height: 150px;
+  }
+  .info {
+    flex-direction: column;
+    text-align: center;
+  }
+  .photo-IUT img,
+  .carte img {
+    max-width: 100%;
+  }
+
+/*Footer*/
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  footer .Col_1_pied_de_page ul {
+    padding: 0;
+  }
+  footer .Col_1_pied_de_page ul ul {
+    padding: 0;
+  }
+}
