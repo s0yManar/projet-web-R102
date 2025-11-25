@@ -1,8 +1,16 @@
-h1.TitreCompetence1{
+body{
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h4{
+    font-family: 'Oswald', sans-serif;
+}
+.TitreCompetence1{
     color: #b85d4f;
 }
 
-h1.TitrePrincipal{
+.TitrePrincipal{
     background-color: #b85d4f;
 }
 
@@ -26,6 +34,7 @@ tr, th{
 div{
     display:flex;
     justify-content: space-around;
+    flex-direction: column;
 }
 
 
@@ -36,26 +45,49 @@ div{
 
 .ressource{
     display: grid;
+    justify-content: initial;
+    gap: 5%;
 }
 
 .codeRessource{
-    background-color: #663b35;
-    grid-column: col / span 2;
+    display: flex;
+    block-size: fit-content;
+    background-color: #bb9792;
+    grid-column: col 0 / span 2;
     grid-row: row;
+    width : fit-content;
+    padding: 4%;
 }
 
 .titreRessource{
-    background-color: #663b35;
-    grid-column: col 3 / span 2;
+    display: flex;
+    background-color: #bb9792;
+    grid-column: col 1 / span 2;
     grid-row: row;
+    align-items: center;
+    padding: 2%;
 }
 
 .texteRessource1{
-    grid-column: col;
+    display: flex;
+    grid-column: col 0;
     grid-row:row 2;
 }
 
 .texteRessource2{
-    grid-column: col;
+    display: flex;
+    grid-column: col 0;
     grid-row: row 3;
+}
+
+.apprentissages{
+    display: flex;
+    flex-direction: row;
+    gap : 10%;
+}
+
+img{
+    display: flex;
+    width: 30%;
+    height: 30%;
 }
