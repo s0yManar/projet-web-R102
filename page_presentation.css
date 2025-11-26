@@ -1,12 +1,75 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* ====== Menu de navigation ====== */
+
+nav{
+    padding:0.5rem;
+    background:#353535;
+    color:#e0e0e0;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav ul li{
+    flex:1;
+    text-align: center;
+    position: relative;
+}
+
+nav a{
+    color:#e0e0e0;
+    text-decoration:none;
+    padding:0.5rem;
+    display:block;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 0.2rem;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: red;
+}
+
+/* menu déroulant */
+.dropdown-toggle{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:1.5rem;
+    }
+
+.dropdown-content{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    width:100%;
+    background:#353535;
+    z-index:10;
+}
+
+.dropdown-content a{
+    border-bottom:0.4rem solid #353535;
+}
+
+li:hover .dropdown-content{
+    display:block;  
+}
+
+
+/* ====== Page de présentation ====== */
 body{
-    font-family: Arial; 
-      background-color: #f5f5f5;
+    font-family:Helvetica, sans-serif; 
+    background-color: #f5f5f5;
 }
 
 /*Titre*/
