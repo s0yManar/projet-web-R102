@@ -77,12 +77,52 @@ img{
     background-color: #b85d4f;
 }
 
+.TitrePrincipalB{
+    background-color: #f26843;
+}
+
+.TitrePrincipalC{
+    background-color: #f1bc0c;
+}
+
+.TitrePrincipalD{
+    background-color: #72a83b;
+}
+
+.TitrePrincipalE{
+    background-color: #375e97;
+}
+
+.TitrePrincipalF{
+    background-color: #754842;
+}
+
 .TitreCompetence{
     size: 2rem;
 }
 
 .A{
     color: #b85d4f;
+}
+
+.B{
+    color: #f26843;
+}
+
+.C{
+    color: #f1bc0c;
+}
+
+.D{
+    color: #72a83b;
+}
+
+.E{
+    color:#375e97
+}
+
+.F{
+    color: #754842;
 }
 
 .codeRessource{
@@ -104,4 +144,24 @@ img{
 
 .I{
     background-color: #bb9792;
+}
+
+.II{
+    background-color: #f38668;
+}
+
+.III{
+    background-color: #f3ce53;
+}
+
+.IV{
+    background-color: #72a83b;
+}
+
+.V{
+    background-color: #5e7496;
+}
+
+.VI{
+    background-color: #664a47;
 }
