@@ -54,6 +54,7 @@ div{
     display: grid;
     justify-content: initial;
     border-style: dashed;
+    border-color: #353535;
     margin-bottom: 2em;
 }
 
