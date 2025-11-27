@@ -235,13 +235,14 @@ button{
 
 footer {
   background-color: #202020;
-  color: #e0e0e0;
   display: flex;
+  color: #e0e0e0;
   justify-content: space-around;
   padding: 20px;
 }
 footer a {
-  text-decoration: none;
+    color: #e0e0e0;
+    text-decoration: none;
 }
 footer a:hover {
   text-decoration: underline;
