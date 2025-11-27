@@ -8,6 +8,7 @@ body {
     background-color: #F5F5F5;
 }
 
+/* ====== header ====== */
 #header {
     display: flex;
     gap: 2rem;
@@ -86,7 +87,7 @@ nav a:hover{
     text-decoration: underline;
     text-decoration-thickness: 0.2rem;
     text-underline-offset: 0.5rem;
-    text-decoration-color: red;
+    text-decoration-color:#ff3a39;
 }
 
 /* menu déroulant version ordinateur*/
@@ -130,7 +131,6 @@ li:hover .menu_deroulant{
     }
 
 
-
     li:hover .menu_deroulant{
         position:relative;
     }
@@ -144,8 +144,12 @@ li:hover .menu_deroulant{
 }
 .contact h1{
   text-align:center;
+  font-size: 2rem;
   color: #FF3A39;
   margin-bottom: 30px;
+}
+h2{
+  font-size: 1.5rem;
 }
 .contactez-nous{
   background-color: #E0E0E0;
@@ -234,10 +238,11 @@ button{
 /*Footer*/
 
 footer {
-  background-color: #202020;
+  background-color: #353535;
   display: flex;
   color: #e0e0e0;
-  justify-content: space-around;
+  align-items: flex-start;
+  justify-content: space-between;
   padding: 20px;
 }
 footer a {
@@ -251,8 +256,20 @@ footer a:hover {
 footer ul{
   list-style-type: none;
 }
+.Col_1_pied_de_page{
+  flex: 1;
+  text-align: left;
+}
 .Col_2_pied_de_page{
-    max-width:200px ;
+  flex: 1;
+  text-align: center;
+}
+.Col_3_pied_de_page{
+  flex: 1;
+  text-align: right;
+}
+.Col_3_pied_de_page p{
+  margin-bottom: 13px;
 }
 
 @media (max-width: 800px) {
@@ -285,6 +302,11 @@ footer ul{
     flex-direction: column;
     text-align: center;
     gap: 20px;
+  }
+  .Col_1_pied_de_page,
+  .Col_1_pied_de_page,
+  .Col_1_pied_de_page{
+    text-align: center;
   }
   footer .Col_1_pied_de_page ul {
     padding: 0;
