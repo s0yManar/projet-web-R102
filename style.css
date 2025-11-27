@@ -26,7 +26,7 @@ table{
 tr, th{
     padding : 5%;
     border-collapse: collapse;
-    border-style : dotted;
+    border-style : dashed;
     border-color : #663b35;
     border-width: 1%;
 }
@@ -41,12 +41,13 @@ div{
 #Ressources{
     display: flex;
     flex-direction: column;
+    gap:15%;
+    padding-bottom: 5%;
 }
 
 .ressource{
     display: grid;
     justify-content: initial;
-    gap: 5%;
 }
 
 .codeRessource{
@@ -88,6 +89,12 @@ div{
 
 img{
     display: flex;
-    width: 30%;
+    width: 20%;
     height: 30%;
+}
+
+#liste{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
 }
