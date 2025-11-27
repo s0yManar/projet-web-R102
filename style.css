@@ -22,7 +22,7 @@ table{
     width: 80%;
     border-collapse: collapse;
     border-style: solid;
-    border-color: #663b35;
+    border-color: #353535;
     border-width: 2%;
 }
 
@@ -30,7 +30,7 @@ tr, th{
     padding : 5%;
     border-collapse: collapse;
     border-style : dashed;
-    border-color : #663b35;
+    border-color : #353535;
     border-width: 1%;
 }
 
