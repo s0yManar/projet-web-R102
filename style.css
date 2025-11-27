@@ -365,4 +365,59 @@ li:hover .menu_deroulant{
     li:hover .menu_deroulant{
         position:relative;
     }
+
+    /*Footer*/
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  .Col_1_pied_de_page,
+  .Col_1_pied_de_page,
+  .Col_1_pied_de_page{
+    text-align: center;
+  }
+  footer .Col_1_pied_de_page ul {
+    padding: 0;
+  }
+  footer .Col_1_pied_de_page ul ul {
+    padding: 0;
+}
+}
+/*Footer*/
+
+footer {
+  background-color: #353535;
+  display: flex;
+  color: #e0e0e0;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+}
+footer a {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+  text-decoration-color:#ff3a39;;
+}
+footer ul{
+  list-style-type: none;
+}
+.Col_1_pied_de_page{
+  flex: 1;
+  text-align: left;
+}
+.Col_2_pied_de_page{
+  flex: 1;
+  text-align: center;
+}
+.Col_3_pied_de_page{
+  flex: 1;
+  text-align: right;
+}
+.Col_3_pied_de_page p{
+  margin-bottom: 13px;
 }
