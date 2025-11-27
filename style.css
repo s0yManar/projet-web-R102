@@ -6,13 +6,6 @@ body{
 h1,h4{
     font-family: 'Oswald', sans-serif;
 }
-.TitreCompetence1{
-    color: #b85d4f;
-}
-
-.TitrePrincipal{
-    background-color: #b85d4f;
-}
 
 table{
     table-layout: auto;
@@ -50,25 +43,6 @@ div{
     justify-content: initial;
 }
 
-.codeRessource{
-    display: flex;
-    block-size: fit-content;
-    background-color: #bb9792;
-    grid-column: col 0 / span 2;
-    grid-row: row;
-    width : fit-content;
-    padding: 4%;
-}
-
-.titreRessource{
-    display: flex;
-    background-color: #bb9792;
-    grid-column: col 1 / span 2;
-    grid-row: row;
-    align-items: center;
-    padding: 2%;
-}
-
 .texteRessource1{
     display: flex;
     grid-column: col 0;
@@ -97,4 +71,37 @@ img{
     display: flex;
     flex-direction: column;
     gap: 10%;
+}
+
+.TitrePrincipalA{
+    background-color: #b85d4f;
+}
+
+.TitreCompetence{
+    size: 2rem;
+}
+
+.A{
+    color: #b85d4f;
+}
+
+.codeRessource{
+    display: flex;
+    block-size: fit-content;
+    grid-column: col 0 / span 2;
+    grid-row: row;
+    width : fit-content;
+    padding: 4%;
+}
+
+.titreRessource{
+    display: flex;
+    grid-column: col 1 / span 2;
+    grid-row: row;
+    align-items: center;
+    padding: 2%;
+}
+
+.I{
+    background-color: #bb9792;
 }
