@@ -83,7 +83,7 @@ nav a:hover{
     text-decoration: underline;
     text-decoration-thickness: 0.2rem;
     text-underline-offset: 0.5rem;
-    text-decoration-color: red;
+    text-decoration-color:#ff3a39;
 }
 
 /* menu déroulant version ordinateur*/
