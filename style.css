@@ -41,18 +41,22 @@ div{
 .ressource{
     display: grid;
     justify-content: initial;
+    border-style: dashed;
+    margin-bottom: 2em;
 }
 
 .texteRessource1{
     display: flex;
     grid-column: col 0;
     grid-row:row 2;
+    padding-left: 1em;
 }
 
 .texteRessource2{
     display: flex;
     grid-column: col 0;
     grid-row: row 3;
+    padding-left: 1em;
 }
 
 .apprentissages{
@@ -163,5 +167,56 @@ img{
 }
 
 .VI{
-    background-color: #664a47;
+    background-color: #a07772;
+}
+
+@media (max-width: 800px) {
+
+    body {
+        margin: 10px;
+    }
+
+    table {
+        width: 100%;
+        border-width: 1%;
+    }
+
+    tr, th {
+        padding: 3%;
+    }
+
+    div {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #Ressources {
+        gap: 30px;
+        padding-bottom: 10%;
+    }
+
+    .ressource {
+        display: flex;
+        flex-direction: column;
+        gap: 0%;
+    }
+
+    .apprentissages {
+        flex-direction: column;  
+        gap: 1em;
+    }
+
+    img {
+        width: 60%;    
+        height: auto;
+        align-self: center;
+    }
+
+    #liste {
+        gap: 1em;
+    }
+
+    .codeRessource .titreRessource {
+        padding: 1em;
+    }
 }
