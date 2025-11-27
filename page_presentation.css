@@ -3,6 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* ====== header ====== */
+#header {
+    display: flex;
+    gap: 2rem;
+    padding: 0.5rem;
+    background-color: white;
+}
+
+#header img {
+    height: 4rem;
+    width: auto;
+}
+
+.logo_BUT {
+    margin-left: auto;
+}
 
 /* ====== Menu de navigation ====== */
 
