@@ -148,6 +148,7 @@ h1{
 h2{
     padding: 0 3rem;
     margin-bottom: 1rem;
+    font-size: 1.5rem;
 }
 
 /*Séparateur*/
@@ -306,43 +307,4 @@ td.empty {
 
 }
 
-/* ====== Footer ====== */
-
-footer {
-  background-color: #202020;
-  display: flex;
-  justify-content: space-around;
-  color: #e0e0e0;
-  padding: 20px;
-}
-
-footer a {
-  text-decoration: none;
-  color: #e0e0e0;
-}
-
-footer a:hover {
-  text-decoration: underline;
-  text-decoration-color:#ff3a39;;
-}
-
-footer ul{
-  list-style-type: none;
-}
-
-@media (max-width:800px){
-    footer {
-    flex-direction: column;
-    text-align: center;
-    gap: 20px;
-  }
-
-  footer .Col_1_pied_de_page ul {
-    padding: 0;
-  }
-
-  footer .Col_1_pied_de_page ul ul {
-    padding: 0;
-  }
-}
 
