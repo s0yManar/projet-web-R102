@@ -149,6 +149,7 @@ h2{
     padding: 0 3rem;
     margin-bottom: 1rem;
     font-size: 1.5rem;
+    margin-left: 7%;
 }
 
 /*Séparateur*/
@@ -167,6 +168,9 @@ hr{
     display:flex;
     gap:2rem;
     padding:0 3rem;
+    margin-right: 7%;
+    margin-left: 7%;
+    text-align: justify ;
 }
 
 strong {
@@ -183,7 +187,9 @@ thead th{
 td, th {
     text-align: center;
     border:1px solid #353535;
-    padding:0.2rem;
+    padding:0.3rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
 }
 
 table{
