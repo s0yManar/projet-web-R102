@@ -9,7 +9,9 @@
 
 main {
     padding: 2rem; 
+    margin: 2rem; 
 }
+
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -146,8 +148,8 @@ li:hover .menu_deroulant{
 
 
 .img{
-    width: 450px;
-    height: 300px;
+    width: 35%;
+    height: auto;
 }
 
 /*article1 = Descriptif BUT */
@@ -157,10 +159,11 @@ li:hover .menu_deroulant{
     gap: 30px;
     margin-bottom: 40px;
     margin: 20px; 
+
 }
 
 /* ce @media rend la partie consacrée au DESCRIPTIF BUT responsive*/
-@media (max-width : 797px) {
+@media (max-width : 800px){
     .article1{
     flex-direction: column ;
 }
@@ -172,15 +175,13 @@ li:hover .menu_deroulant{
     h2 {
         color:rgb(223, 41, 41);
     }
+    
 }
 
 hr {
     margin: 25px ;
     color:darkslategray
 }
-
-
-
 
 /* article 2= Contact + photo de l'iut avec effet zoomé*/ 
 
@@ -199,14 +200,13 @@ hr {
 .contenu_img2:hover {
 transition: transform 0.35s ease; 
 transform: scale(1.12);
-overflow: hidden;
 border-radius: 10px;
 object-fit: cover;
 padding: 30px;
 }
 
 /* ce @media rend notre class article2 responsive*/ 
-@media (max-width:797px) {
+@media (max-width:800px){
     .article2 {
         flex-direction: column;
     }
@@ -222,6 +222,7 @@ padding: 30px;
     padding: 15px;
     h3 {
         color: rgb(223, 41, 41); 
+        margin-bottom: 10px; 
     }
 }
 
@@ -236,25 +237,24 @@ padding: 30px;
     .encadrer {
         flex-direction: column;
     }
-    .compétence {
-
-    }
 }
 
 .encadrer {
     border: 2px solid #3f72af;  
     border-radius: 10px;         
     padding: 15px;              
-    margin-bottom: 10px;
-    display: flex; 
+    margin-bottom: 2% ;
+}
+.contenu {
+     display: flex;
     gap: 20px;
+    align-items: flex-start;
 }
 
-.compétence {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+.texte_competence {
+   flex: 1; 
 }
+
 /* Image cliquable de la vie étudiante */
 
 
@@ -291,11 +291,11 @@ padding: 30px;
 }
 
 .imgCrous{
- width: 50% ;
+ width: auto;
 height: auto;
 }
 
-/*Footer*/
+
 /*Footer*/
 
 footer {
@@ -305,6 +305,7 @@ footer {
   align-items: flex-start;
   justify-content: space-between;
   padding: 20px;
+  margin-top: auto;
 }
 footer a {
     color: #e0e0e0;
@@ -324,6 +325,7 @@ footer ul{
 .Col_2_pied_de_page{
   flex: 1;
   text-align: center;
+  margin-top: auto; 
 }
 .Col_3_pied_de_page{
   flex: 1;
