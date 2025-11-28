@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang= fr>
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width-device-witch" initial scale=" 1.0">
+    <link rel="stylesheet" href="traain.css">
+    <title> Accueil</title>
+</head>
+
+body> 
+<div style="background-color: rgb(9, 8, 13); padding:20px;">
+<h2> L'histoire du BUT </h2> 
+<p>Quam ob rem vita quidem talis fuit vel fortuna vel gloria, ut nihil posset accedere, moriendi autem sensum celeritas abstulit; quo de genere mortis difficile dictu est; quid homines suspicentur, videtis; hoc vere tamen licet dicere,
+ P. Scipioni ex multis diebus, quos in vita celeberrimos </p>
+ </div>
+ 
+ <hr> 
+ 
+ <div style="background-color:#000080" >
+<title> L'IUT Informatique Toulouse Rangueil</title>
+<display></display>
+<img src="algreen_album.jpg" alt="Album de Al green" width="150" height="150"> 
+</div>
+</html>
