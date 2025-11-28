@@ -1,0 +1,439 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    margin: 3rem;
+    background-color: #f5f5f5;
+}
+
+h1,h4{
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+table{
+    table-layout: auto;
+    width: 80%;
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: #353535;
+    border-width: 2%;
+}
+
+tr, th{
+    padding : 5%;
+    border-collapse: collapse;
+    border-style : dashed;
+    border-color : #353535;
+    border-width: 1%;
+}
+
+div{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom : 1rem;
+    margin-top: 1rem;
+}
+
+
+#Ressources{
+    display: flex;
+    flex-direction: column;
+    gap:15%;
+    padding-bottom: 5%;
+}
+
+.ressource{
+    display: grid;
+    justify-content: initial;
+    border-style: dashed;
+    border-color: #353535;
+    margin-bottom: 2em;
+}
+
+.codeRessource{
+    display: flex;
+    block-size: fit-content;
+    grid-column: 1;
+    grid-row: 1;
+    width : fit-content;
+    padding: 4%;
+}
+
+.titreRessource{
+    display: flex;
+    grid-column: 2;
+    grid-row: 1;
+    align-items: center;
+    padding: 2%;
+}
+
+.texteRessource1{
+    display: flex;
+    grid-column: 1 / span 2;
+    grid-row:2;
+    padding-left: 1em;
+    margin-top:0.5em;
+    margin-bottom: 1em;
+}
+
+.texteRessource2{
+    display: flex;
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    padding-left: 1em;
+    margin-bottom: 1em;
+}
+
+.apprentissages{
+    display: flex;
+    flex-direction: row;
+    gap : 10%;
+}
+
+img{
+    display: flex;
+    width: 20%;
+    height: 30%;
+}
+
+#liste{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.TitrePrincipalA{
+    background-color: #b85d4f;
+}
+
+.TitrePrincipalB{
+    background-color: #f26843;
+}
+
+.TitrePrincipalC{
+    background-color: #f1bc0c;
+}
+
+.TitrePrincipalD{
+    background-color: #72a83b;
+}
+
+.TitrePrincipalE{
+    background-color: #375e97;
+}
+
+.TitrePrincipalF{
+    background-color: #754842;
+}
+
+.TitreCompetence{
+    size: 2rem;
+}
+
+.A{
+    color: #b85d4f;
+}
+
+.B{
+    color: #f26843;
+}
+
+.C{
+    color: #f1bc0c;
+}
+
+.D{
+    color: #72a83b;
+}
+
+.E{
+    color:#375e97
+}
+
+.F{
+    color: #754842;
+}
+
+
+.I{
+    background-color: #bb9792;
+}
+
+.II{
+    background-color: #f38668;
+}
+
+.III{
+    background-color: #f3ce53;
+}
+
+.IV{
+    background-color: #72a83b;
+}
+
+.V{
+    background-color: #5e7496;
+}
+
+.VI{
+    background-color: #a07772;
+}
+
+.retour {
+  display: flex;
+  margin-top: 20px;
+  color: #ff3a39;
+  text-decoration: none;
+  font-weight: bold;
+  justify-content: center;
+  margin-bottom: 5em;
+}
+
+.retour:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 800px) {
+
+    body {
+        margin: 10px;
+    }
+
+    table {
+        width: 100%;
+        border-width: 1%;
+    }
+
+    tr, th {
+        padding: 3%;
+    }
+
+    div {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #Ressources {
+        gap: 30px;
+        padding-bottom: 10%;
+    }
+
+    .ressource {
+        display: flex;
+        flex-direction: column;
+        gap: 0%;
+    }
+
+    .apprentissages {
+        flex-direction: column;  
+        gap: 1em;
+    }
+
+    img {
+        width: 60%;    
+        height: auto;
+        align-self: center;
+    }
+
+    #liste {
+        gap: 1em;
+    }
+
+    .codeRessource .titreRessource {
+        padding: 1em;
+    }
+}
+
+
+/* ====== header ====== */
+#header {
+    display: flex;
+    gap: 2rem;
+    padding: 0.5rem;
+    background-color: white;
+}
+
+#header img {
+    height: 4rem;
+    width: auto;
+    transform: none;
+}
+
+.logo_BUT {
+    margin-left: auto;
+}
+
+/* --- version responsive --- */
+@media (max-width:800px){
+    #header {
+        gap:1rem;
+    }
+
+    #header img {
+        height: 2.5rem;
+        max-width:30%;
+        object-fit: contain;
+    }
+}
+
+
+/* ====== Menu de navigation ====== */
+
+nav{
+    padding:0.5rem;
+    background:#353535;
+    color:#e0e0e0;
+}
+
+nav input[type=checkbox]{
+    display: none; 
+}
+
+
+/*style du menu burger (pas visible sur la version ordinateur)*/
+.burger {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+    color:white;
+}
+
+/*affichage du menu*/
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav ul li{
+    flex:1;
+    text-align: center;
+    position: relative;
+}
+
+nav a{
+    color:#e0e0e0;
+    text-decoration:none;
+    padding:0.5rem;
+    display:block;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 0.2rem;
+    text-underline-offset: 0.5rem;
+    text-decoration-color:#ff3a39;
+}
+
+/* menu déroulant version ordinateur*/
+.menu_deroulant{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    width:100%;
+    background:#353535;
+    z-index:10;
+}
+
+.menu_deroulant a{
+    border-bottom:0.4rem solid #353535;
+}
+
+li:hover .menu_deroulant{
+    display:block;  
+}
+
+
+/* --- Version responsive --- */
+
+@media (max-width:800px){
+
+    .burger{
+    display: block; 
+    padding:0.5rem;
+    text-align: center;
+    }
+
+    nav ul{
+        display:none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav input[type=checkbox]:checked + ul{
+        display: flex;
+    }
+
+
+    li:hover .menu_deroulant{
+        position:relative;
+    }
+
+    /*Footer*/
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  .Col_1_pied_de_page,
+  .Col_1_pied_de_page,
+  .Col_1_pied_de_page{
+    text-align: center;
+  }
+  footer .Col_1_pied_de_page ul {
+    padding: 0;
+  }
+  footer .Col_1_pied_de_page ul ul {
+    padding: 0;
+}
+}
+
+/*Footer*/
+
+footer {
+  background-color: #353535;
+  display: flex;
+  color: #e0e0e0;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+}
+footer a {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+  text-decoration-color:#ff3a39;;
+}
+footer ul{
+  list-style-type: none;
+}
+.Col_1_pied_de_page{
+  flex: 1;
+  text-align: left;
+}
+.Col_2_pied_de_page{
+  flex: 1;
+  text-align: center;
+}
+.Col_3_pied_de_page{
+  flex: 1;
+  text-align: right;
+}
+.Col_3_pied_de_page p{
+  margin-bottom: 13px;
+}
